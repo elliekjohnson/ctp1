@@ -1,0 +1,16 @@
+/* Put your styles here */
+
+body {
+  background: white;
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
+}
+#timeline{
+  height: 100%;
+  overflow: scroll;
+}
+
+h1 {
+  text-align: center;
+}
