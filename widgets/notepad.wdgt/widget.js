@@ -1,3 +1,4 @@
+//source code from : https://bookry.com/widgets/
 ack.module("ack.widget", function(h) {
 	h.init = function() {
 		var c = new ack.tools.notes.NotePad("", document.getElementById("ack-widget"));

@@ -1,3 +1,4 @@
+//source code from : https://bookry.com/widgets/
 ack.lang({
 	'Reader Cloud' : 'Reader Cloud',
 	'make a book your own' : 'make a book your own',

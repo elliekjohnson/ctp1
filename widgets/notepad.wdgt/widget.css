@@ -1,1 +1,2 @@
+/*source code from : https://bookry.com/widgets/*/
 .notes{position:absolute;top:100px;right:100px;bottom:100px;left:100px;height:auto;width:auto;-moz-transition:all .5s;-webkit-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s}.notes.keyboard{top:10px!important}.notes.ipad-keyboard-portrait{bottom:330px!important}.notes.ipad-keyboard-landscape{bottom:410px!important}

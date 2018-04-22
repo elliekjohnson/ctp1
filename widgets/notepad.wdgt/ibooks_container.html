@@ -1,3 +1,4 @@
+<!--source code from : https://bookry.com/widgets/-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +23,7 @@
     </div>
 
 	<script type="text/javascript">
-    	
+
 (function(){var e=document.getElementById("content"),n=document.getElementById("default_image"),h=document.getElementById("default_image_container"),o=document.getElementById("cover_image"),i=document.getElementById("cover_image_container"),j=document.body,l=document.getElementById("loading"),d={__hide__:function(a,b){!a.classList.contains("out")&&!a.classList.contains("gone")&&(!0===b||void 0===b?(a.classList.add("out"),setTimeout(function(){a.classList.contains("out")&&a.classList.add("gone")},
 501)):a.classList.add("gone"))},defaultImage:function(a){d.__hide__(h,a)},coverImage:function(a){d.__hide__(i,a)},loading:function(a){d.__hide__(l,a)}},c={__show__:function(a,b){if((!0===b||void 0===b)&&a.classList.contains("waiting_load"))return!1;a.classList.remove("out");a.classList.remove("gone");return!0},defaultImage:function(a){return c.__show__(h,a)},coverImage:function(a){return c.__show__(i,a)},loading:function(a){c.__show__(l,a)}},f={sleep:function(){f.isSleeping()||(j.setAttribute("data-sleeping",
 "true"),e.setAttribute("data-original-src",e.src),e.src="",e.contentWindow.document.innerHTML="",e.classList.add("waiting_load"),c.coverImage()||c.defaultImage())},awaken:function(){f.isSleeping()&&(c.loading(!1),e.src=e.getAttribute("data-original-src"),j.removeAttribute("data-sleeping"))},isSleeping:function(){return"true"===j.getAttribute("data-sleeping")}},k=function(){setTimeout(function(){window.widget&&window.widget.notifyContentIsReady&&window.widget.notifyContentIsReady()},500)},b=new function(){var a=

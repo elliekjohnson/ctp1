@@ -1,4 +1,4 @@
-
+//source code from : https://bookry.com/widgets/
 var ack=ack||{};ack.module=function(b,c){"string"===typeof b&&(b=b.split("."));for(var a=window,d=0;d<b.length;d++){var g=b[d];a[g]=a[g]||{};a=a[g]}c(a)};ack.namespaceLib=function(b){ack.module("ack.lib",function(c){c[b]=window[b];delete window[b]})};
 var sjcl={cipher:{},hash:{},keyexchange:{},mode:{},misc:{},codec:{},exception:{corrupt:function(b){this.toString=function(){return"CORRUPT: "+this.message};this.message=b},invalid:function(b){this.toString=function(){return"INVALID: "+this.message};this.message=b},bug:function(b){this.toString=function(){return"BUG: "+this.message};this.message=b},notReady:function(b){this.toString=function(){return"NOT READY: "+this.message};this.message=b}}};
 "undefined"!=typeof module&&module.exports&&(module.exports=sjcl);
