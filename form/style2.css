@@ -2,7 +2,8 @@ body{
   background-color: white;
   color: black;
   font-family: FranklinGothicBold;
-  width:100%;
+  width: 75%;
+  padding: 2px;
   }
 
 @font-face {
@@ -10,10 +11,13 @@ body{
     src: url('FranklinGothicBold.ttf');
 }
 
+#share p{
+  margin: 0px;
+}
 form{
       display: inline-block;
-	    padding: 10px;
       width:50%;
+	    padding: 10px;
     }
 
 textarea{

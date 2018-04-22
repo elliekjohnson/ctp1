@@ -9,7 +9,7 @@
 //declare all connections to database
 $servername = "localhost";
 $username = "ekjohnson";
-$password = "Scuryandjet2";
+$password = "creativeTech";
 $dbname = "ekjohnso_blog";
 
 
