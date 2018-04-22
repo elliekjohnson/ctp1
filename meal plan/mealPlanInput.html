@@ -1,0 +1,126 @@
+<html>
+  <head>
+  <title>Meal Plan Input Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <h1 style="text-decoration:underline;">Meal Plan Post</h1>
+    </header>
+    <h4>This page should allow you to plan the week ahead so you know what you are going to eat each day along with what you need to buy at the shops. Viewing this page each will make eating healthier easier.</h4>
+ <!--send to insert after form filled out to submit it into the database-->
+    <form action="insert.php" method="post">
+
+    <label id="wkDay">Week:</label>
+    <input type="text" name="week" placeholder="Which week are you on e.g. Week beginning 22/03/2018" required="required">
+    </br></br></br>
+
+    <!--fill out facts for Monday-->
+    <label id="wkDay"><u>Monday:</u></label>
+  </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="monBreak" placeholder="Monday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="monLun" placeholder="Monday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="monDin" placeholder="Monday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="monSna" placeholder="Monday Snacks" required="required">
+  </br></br>
+
+ <!--fill out facts for Tuesday-->
+    <label id="wkDay">Tuesday:</label>
+  </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="tueBreak" placeholder="Tuesday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="tueLun" placeholder="Tuesday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="tueDin" placeholder="Tuesday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="tueSna" placeholder="Tuesday Snacks" required="required">
+  </br></br>
+
+ <!--fill out facts for Wednesday-->
+    <label id="wkDay">Wednesday:</label>
+    </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="wedBreak" placeholder="Wednesday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="wedLun" placeholder="Wednesday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="wedDin" placeholder="Wednesday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="wedSna" placeholder="Wednesday Snacks" required="required">
+  </br></br>
+
+ <!--fill out facts for Thursday-->
+    <label id="wkDay">Thursday:</label>
+    </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="thuBreak" placeholder="Thursday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="thuLun" placeholder="Thursday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="thuDin" placeholder="Thursday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="thuSna" placeholder="Thursday Snacks" required="required">
+    </br></br>
+
+ <!--fill out facts for Friday-->
+    <label id="wkDay">Friday:</label>
+    </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="friBreak" placeholder="Friday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="friLun" placeholder="Friday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="friDin" placeholder="Friday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="friSna" placeholder="Friday Snacks" required="required">
+    </br></br>
+
+ <!--fill out facts for Saturday-->
+    <label id="wkDay">Saturday:</label>
+    </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="satBreak" placeholder="Saturday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="satLun" placeholder="Saturday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="satDin" placeholder="Saturday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="satSna" placeholder="Saturday Snacks" required="required">
+    </br></br>
+
+ <!--fill out facts for Sunday-->
+    <label id="wkDay">Sunday:</label>
+    </br></br>
+    <label>Breakfast:</label>
+    <input type="text" name="sunBreak" placeholder="Sunday Breakfast" required="required">
+    <label>Lunch:</label>
+    <input type="text" name="sunLun" placeholder="Sunday Lunch" required="required">
+    <label>Dinner:</label>
+    <input type="text" name="sunDin" placeholder="Sunday Dinner" required="required">
+    <label>Snacks:</label>
+    <input type="text" name="sunSna" placeholder="Sunday Snacks" required="required">
+    </br></br>
+
+      <input type="submit" name="submit" class="submit" value="Submit"/>
+    </form>
+
+  <!--Social media buttons from: https://www.addtoany.com/-->
+  <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://panel.uwe.ac.uk/~ekjohnson/ctp/meal_plan/mealPlan.php" data-a2a-title="My Weekly Meal Plan Page!">
+
+  <a class="a2a_button_twitter"></a>
+  <a class="a2a_button_whatsapp"></a>
+  <a class="a2a_button_email"></a>
+  </div>
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
+  <!-- AddToAny END -->
+
+
+</body>
+</html>
